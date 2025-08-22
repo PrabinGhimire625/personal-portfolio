@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import heroImg from "../assets/heroImg.jpg";
+import dashboard from "../assets/dashboard.png";
+import bookLibrary from "../assets/bookLibrary.jpg";
+import tuneCasa from "../assets/tuneCasa.png";
+import khalti from "../assets/khalti.webp";
+import chatApp from "../assets/chatApp.png";
+import ecommerce from "../assets/ecommerce.webp";
 import ProjectModal from "./ProjectModel";
 
 const blogs = [
@@ -10,7 +16,7 @@ const blogs = [
         date: "Aug 19, 2025",
         description:
             "Step-by-step journey of creating TuneCasa, a music listening web app with artist collaboration, offline listening, and monetized ads.",
-        img: heroImg,
+        img: tuneCasa,
     },
     {
         id: 2,
@@ -19,7 +25,7 @@ const blogs = [
         date: "Jul 10, 2025",
         description:
             "Designing and developing BookLibrary, a responsive online platform to manage books, user accounts, and borrowing features.",
-        img: heroImg,
+        img: bookLibrary,
     },
     {
         id: 3,
@@ -28,7 +34,7 @@ const blogs = [
         date: "Jun 25, 2025",
         description:
             "Building a full-featured e-commerce platform with product management, seamless navigation, and responsive design.",
-        img: heroImg,
+        img: ecommerce,
     },
     {
         id: 4,
@@ -37,7 +43,7 @@ const blogs = [
         date: "May 15, 2025",
         description:
             "Creating a responsive admin dashboard with charts, user management, and analytics tracking.",
-        img: heroImg,
+        img: dashboard,
     },
     {
         id: 5,
@@ -46,7 +52,7 @@ const blogs = [
         date: "Apr 10, 2025",
         description:
             "Developed a real-time chat application with Socket.IO, private messaging, and group chat support.",
-        img: heroImg,
+        img: chatApp,
     },
     {
         id: 6,
@@ -55,7 +61,7 @@ const blogs = [
         date: "Mar 30, 2025",
         description:
             "Integrated secure payment gateways and subscription features for web applications.",
-        img: heroImg,
+        img: khalti,
     },
 ];
 
