@@ -1,4 +1,5 @@
 import React from "react";
+import aboutImg from "../assets/aboutImg.jpg"; 
 
 const Navbar = () => {
   return (
@@ -9,7 +10,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 rounded-full overflow-hidden">
             <img
-              src="/src/assets/aboutImg.jpg"
+               src={aboutImg}
               alt="Profile"
               className="w-full h-full object-cover"
             />
